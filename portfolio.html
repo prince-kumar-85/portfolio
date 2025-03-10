@@ -25,6 +25,16 @@
         .contact a { margin: 10px; padding: 12px 24px; border-radius: 8px; background-color: #38bdf8; color: white; text-decoration: none; font-weight: bold; display: inline-block; transition: background-color 0.3s; }
         .contact a:hover { background-color: #0ea5e9; }
         footer { padding: 20px; background-color: #0f172a; color: #cbd5e1; text-align: center; }
+
+        /* Profile Image Styles */
+        .profile-pic {
+            border-radius: 50%; /* Makes the image round */
+            width: 150px; /* Adjust the size of the image */
+            height: 150px; /* Ensures the image stays square */
+            object-fit: cover; /* Ensures the image fits properly */
+            margin-top: 20px; /* Add space between the image and text */
+            border: 3px solid #38bdf8; /* Optional border for better contrast */
+        }
     </style>
 </head>
 <body>
@@ -33,8 +43,10 @@
         <p>Software Developer | DSA Problem Solver | Full Stack Enthusiast</p>
     </header>
 
-    <section>
+    <section id="about">
         <h2>About Me</h2>
+        <!-- Add your profile picture here -->
+        <img src="princelogopic.jpg" alt="Prince Kumar" class="profile-pic"> <!-- Replace 'profile.jpg' with your image file name -->
         <p>I am a passionate software developer with expertise in front-end and back-end technologies. My focus is on building scalable, efficient, and user-friendly applications. With a strong foundation in Data Structures and Algorithms, I enjoy solving complex coding challenges and contributing to the tech community.</p>
     </section>
 
